@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/images/icons8-calculator-60.png">
+    <title>Caculadora</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="box">
+        <div class="content">
+            <h2 class="sony">Minha Calculadora</h2> 
+            <div class="box-res">
+                <p id="res"></p>
+            </div>
+
+            <div class="title-2">
+                <h2>Calculadora<br>Eletrônica</h2>
+            </div>
+        
+            <div class="operadores">
+                <button id="soma" type="button" onclick="insert('+')">+</button>
+                <button id="subt" type="button" onclick="insert('-')">-</button>
+                <button id="mult" type="button" onclick="insert('*')">x</button>
+                <button id="divi" type="button" onclick="insert('/')">/</button>
+            </div>
+
+        <div class="numeros">
+            <div class="nums-1-row">
+                <button type="button" onclick="insert('7')">7</button>
+                <button type="button" onclick="insert('8')">8</button>
+                <button type="button" onclick="insert('9')">9</button>
+            </div>
+
+            <div class="nums-2-row">
+                <button type="button" onclick="insert('4')">4</button>
+                <button type="button" onclick="insert('5')">5</button>
+                <button type="button" onclick="insert('6')">6</button>
+            </div>
+
+            <div class="nums-3-row">
+                <button type="button" onclick="insert('1')">1</button>
+                <button type="button" onclick="insert('2')">2</button>
+                <button type="button" onclick="insert('3')">3</button>
+            </div>
+
+            <div>
+                <button class="num-zero" type="button" onclick="insert('0')">0</button>
+            </div>
+
+            <div>
+                <button class="del" type="button" onclick="back()"><</button>
+            </div>
+
+            <div>
+                <button class="dot" type="button" onclick="insert('.')">.</button>
+            </div>
+
+        </div>
+
+        <div class="apagar">
+            <button type="reset" onclick="clean()">C</button>
+            <button type="submit" onclick="calcular()">=</button>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
+          

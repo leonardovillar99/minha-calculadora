@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.title{
+    text-align: center;
+    color: #2e2e2e;
+}
+
+.box{
+    background-color: rgb(160, 160, 160);
+    width: 500px;
+    height: 600px;
+    font-size: 3rem;
+    margin: auto;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.479);
+    border-radius: 12px;
+}
+
+.container{
+    margin-top: 150px;
+}
+
+.sony{
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(39, 39, 39);
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.box-res{
+    margin-left: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.13);
+    border-radius: 7px;
+    width: 300px;
+    height: 50px;
+}
+
+#res{
+    text-align: right;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.title-2{
+    font-size: 0.8rem;
+    color:rgb(39, 39, 39);
+    text-align: center;
+}
+
+.title-2, h2{
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.operadores{
+    text-align: center;
+}
+
+.numeros{
+    line-height: 50px;
+}
+
+button{
+    width: 100px;
+    font-size: 1.0rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+    border: transparent;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(212, 212, 212);
+    transition: .5s;
+}
+
+.nums-1-row, .nums-2-row, .nums-3-row{
+    text-align: center;
+    line-height: 60px;
+}
+
+.num-zero{
+    width: 40px;
+    height: 150px;
+    margin-left: 30px;
+    position: absolute;
+    top: 473px;
+}
+
+.del{
+    width: 40px;
+    height: 68px;
+    margin-left: 430px;
+    position: absolute;
+    top: 473px;
+}
+
+.dot{
+    width: 40px;
+    height: 68px;
+    margin-left: 430px;
+    position: absolute;
+    top: 555px;
+}
+
+.numeros{
+    margin-top: 10px;
+}
+
+.apagar{
+    text-align: center;
+}
