@@ -1,0 +1,1 @@
+Esse é apenas um dos meu primeiros projetos a serem feitos com um pouco de Javascript, bem simples, mas que teve muita importância agora no ínicio do meu aprendizado.
